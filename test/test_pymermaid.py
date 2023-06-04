@@ -5,7 +5,7 @@ sys.path.append(os.path.dirname(os.path.realpath(__file__)) + "/../src")
 
 import unittest
 import PIL
-from pymermaid.pymermaid import createDiagram
+from pymermaiddiagram.pymermaid import createDiagram
 
 class TestPyMermade(unittest.TestCase):
     def test_diagram_creation(self):
