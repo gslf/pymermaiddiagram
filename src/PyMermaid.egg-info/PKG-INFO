@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: PyMermaid
+Version: 0.0.1
+Summary: A library to create mermaid.js diagrams using python
+Author-email: Gioele SL Fierro <hck@gslf.it>
+Project-URL: Homepage, https://github.com/gslf/PyMermade
+Project-URL: Bug Tracker, https://github.com/gslf/PyMermade/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# PyMermaid
+### A library to create mermaid.js diagrams using python
+##### Gioele SL Fierro
+
+
+# TODO
+
+

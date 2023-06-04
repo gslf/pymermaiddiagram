@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "pillow>=9", "requests>=2"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "PyMermaid"
+version = "0.0.1"
+authors = [
+  { name="Gioele SL Fierro", email="hck@gslf.it" },
+]
+description = "A library to create mermaid.js diagrams using python"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/gslf/PyMermade"
+"Bug Tracker" = "https://github.com/gslf/PyMermade/issues"
