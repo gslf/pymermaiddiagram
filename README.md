@@ -6,7 +6,7 @@
 
 ### How to use pymermaiddiagrams
 
-``
+```
 import base64
 import requests
 import io
