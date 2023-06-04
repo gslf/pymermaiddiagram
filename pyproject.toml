@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 
 [project]
-name = "PyMermaid"
+name = "pymermaiddiagram"
 version = "0.0.1"
 authors = [
   { name="Gioele SL Fierro", email="hck@gslf.it" },
