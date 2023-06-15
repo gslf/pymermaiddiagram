@@ -1,5 +1,5 @@
 import base64
-import requests, io
+import requests, io, os.path
 from PIL import Image
 
 def createDiagram(string_description):
@@ -26,3 +26,11 @@ def createDiagram(string_description):
 
     return diagram_image
 
+
+def saveDiagram(string_description, image_name, image_path = ""):
+
+    diagram_image = createDiagram(string_description)
+
+    image_name = image_name + ".jpg"
+    full_path = os.path.join(image_path, image_name)
+    diagram_image.save(full_path)

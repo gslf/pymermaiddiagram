@@ -4,6 +4,8 @@
 
 ---
 
+![pymermaiddiagram logo](/res/pymermaiddiagram.jpg)
+
 ### How to use pymermaiddiagrams
 
 ```python
@@ -11,7 +13,7 @@ import base64
 import requests
 import io
 from PIL import Image
-from pymermaiddiagrams import createDiagram
+from pymermaiddiagram import createDiagram
 
 def main():
     """Example usage of the createDiagram function."""
