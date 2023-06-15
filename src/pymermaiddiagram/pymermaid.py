@@ -3,9 +3,11 @@ import requests, io, os.path
 from PIL import Image
 
 def createDiagram(string_description):
-    """Creates a diagram using mermaid.js image service from the given string description and returns an Image object.
+    """
+    Creates a diagram using mermaid.js image service from the given string description and returns an Image object.
     
     :param str string_description: containing the Mermaid code for the diagram
+
     :return: PIL.Image diagram_image: containing the generated diagram
 
     This function follows the steps:
@@ -28,7 +30,15 @@ def createDiagram(string_description):
 
 
 def saveDiagram(string_description, image_name, image_path = ""):
+    """
+    Saves the diagram image generated from the given string description.
+    
+    :param str tring_description: A textual description of the diagram to be created.
+    :param str image_name: The name of the image file (without file extension).
+    :param str,optional image_path: Path of the directory to save image in. Defaults to "" (current directory).
 
+    :return: None
+    """
     diagram_image = createDiagram(string_description)
 
     image_name = image_name + ".jpg"
